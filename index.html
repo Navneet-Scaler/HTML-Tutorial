@@ -1,0 +1,111 @@
+<!-- 10. Doctype expected -->
+<!DOCTYPE html>
+
+<!-- 1. First html element : Everything goes in between html tags -->
+<!-- 8. adding lang attribute -->
+<html lang="en">
+
+<!-- 2. Head tag contains : meta data about the page which is not shown on the page. -->
+<head>
+    <!-- 9. adding charset : UFT-8 -->
+    <meta charset="UTF-8">
+    <!-- 4. First meta tag : Title of page | Title would not be seen inside page-->
+    <title>My First Web Page</title>
+    <!-- 11. Meta tag for name of author -->
+    <meta name="author" content="Navneet">
+    <!-- 12. Description of page : this info can be picked by search engine-->
+    <meta name="Description" content="This page contaiins all the things I am learning how to create as I learn HTML.">
+    <!-- 13. Link for favicon image -->
+    <link rel="icon" href="img/html5.png">
+    <!-- 14. Adding CSS File  -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- 7. Style to save eyes -->
+    <!-- ADDED To Main : CSS File 
+        <style>
+        html {
+            font-size: 22px;
+        }
+        body {
+            background-color: #333;
+            color: whitesmoke;
+        }
+    </style> -->
+
+</head>
+
+<!-- 3. All the shown content goes in body tag -->
+<body>
+    <!-- 5. Mainly page contains only 1 : h1 tag -->
+    <h1>My Goals for the year.</h1>
+    <hr>
+
+    <nav>
+        <ul>
+            <li> <a href="#html">Learn HTML</a> </li>
+            <li><a href="#vacation">Planning a Vacation</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section id="html">
+        <p>This my first web page.</p>
+        <h2>I'm ready to learn HTML.</h2>
+        <p>This is my first web page.</p>
+        <h3>Daily Schedule.</h3>
+        <p>Let me tell you how:</p>
+            <ol>
+                <li>....I learn about web dev</li>
+                <li>....I plan out my schedule.</li>
+                <li>....I use from <abbr title="Mozillla Developer Network"><a href="https://developer.mozilla.org">MDN</a></abbr>.</li>
+            </ol>
+        </p>
+    </section>
+
+    <hr>   
+
+    <section id="vacation">
+        <h2>I'm also planning a Vacation.</h2>
+        <p>I have been working hard and <em>really need 
+            a getaway.</em></p>
+        <p>I live in <abbr title="Kansas">KS</abbr> so I want to visit a beach.</p>
+        
+        <h3>Places I'd like to visit.</h3>
+        <ul>
+            <li><p>I've heard good things about the 
+                Caribbean.</p></li>  
+            <li><p>I have heard good things about going here:</p></li>
+                <address>
+                    Cecilia Chapman
+                    <br>711-2880 Nulla St.
+                    <br>Mankato Mississippi 96522
+                    <br>(257) 563-7401
+                </address>
+        </ul>
+
+        <!-- TODO: Add more places -->
+        <h3>Places I want to avoid.</h3>
+        <dl>
+            <dt>The Nort Pole</dt>
+            <dd>I hear this is <strong>Cold</strong>!</dd>
+        
+            <dt>South Pole</dt>
+            <dd>This is also cold.</dd>
+
+            <dt>Mountain Tops.</dt>
+            <dd>These are also cold.</dd>
+        </dl>
+        <p>Anywhere cold. <strong>No way</strong>!</p>  
+    </section>
+
+    <hr>
+    &lt;&lt;&lt; &copy; <a href="about.html">Navneet</a>&gt;&gt;&gt;
+    
+    
+    <p>
+        <a href="#">Back to Top</a>
+    </p>
+</body>
+
+</html>
