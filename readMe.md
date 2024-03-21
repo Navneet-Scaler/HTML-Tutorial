@@ -9,7 +9,7 @@
 
 > Chrome Extensions 
     * [Dark New Tab : It uses a dark page insted of ligh page in Chrome]()
-    * 
+    * html5 outliner : extension for google chrome  
     * 
 
 > 
